@@ -58,7 +58,7 @@ if ($err) {
 ######################################### python版本 #########################################
 import http.client
 
-conn = http.client.HTTPConnection("openapi,momoex,com")
+conn = http.client.HTTPConnection("openapi,kuzh1,com")
 
 payload = "api_key=441601d5be9e33df61149d7d0469d7d0&price=5&side=BUY&sign=06b52a16fcba335c52d713a47b5c600f&symbol=btcusdt&time=1566445997732&type=1&volume=1"
 
